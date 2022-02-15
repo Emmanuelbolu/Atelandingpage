@@ -1,0 +1,29 @@
+body{
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.768px;
+}
+.atelogo{
+    padding-right: 63%;
+    padding-left: 3%;
+}
+.div{
+    position: fixed;
+}
+.sittinglaptop{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+h1{
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+}
+.freetext{
+    color:  #027BFE;
+}
+    .p-text{
+        letter-spacing: 0.23px;
+        text-align: center;
+        wi
+    }
