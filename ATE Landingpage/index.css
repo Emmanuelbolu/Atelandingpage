@@ -118,9 +118,6 @@ margin-bottom: 10%
 .ladypressingphone{
   width: 100%;
 }
-.background{
-  background-image: url('/imgfile/backgroundimage.svg');
-}
 .googleplay{
   padding: 50px 0px 20px 30px;
 }
@@ -302,5 +299,31 @@ display: none;
   font-size: 30px;
   border-color:#027BFE ;
   margin: 0px 0px 30px 40%;
+}
+.flex{
+  display: flex;
+}
+.section3{
+  background-color: #027BFE;
+  width: 600px;
+  height: 600px;
+}
+.ladypressingphone{
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  height: 600px;
+}
+.download{
+  font-size: 40px;
+  padding: 0px 0px 0px 0% ;
+  text-align: center;
+}
+.googleplay{
+  padding: 0px 0px 0px 0%;
+  width: 90%;
+}
+.appstorelogo{
+  padding: 0px 0px 0px 0%;
+  width: 80%;
 }
 }
