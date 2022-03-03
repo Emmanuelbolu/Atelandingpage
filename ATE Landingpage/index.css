@@ -317,13 +317,24 @@ display: none;
   font-size: 40px;
   padding: 0px 0px 0px 0% ;
   text-align: center;
+  width: 150%;
 }
 .googleplay{
-  padding: 0px 0px 0px 0%;
-  width: 90%;
+  padding: 0px 0px 30px 40%;
+  width: 70%;
 }
 .appstorelogo{
-  padding: 0px 0px 0px 0%;
-  width: 80%;
+  padding: 0px 0px 0px 45%;
+  width: 60%;
+}
+.background{
+  padding: 0px 0px 0px 15%;
+  align-items: center;
+}
+span.background{
+  padding: 0px;
+}
+.get{
+  background-color: #028dfe;
 }
 }
