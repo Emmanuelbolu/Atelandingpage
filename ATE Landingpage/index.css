@@ -124,8 +124,26 @@ margin-bottom: 10%
 .appstorelogo{
   padding: 20px 0px 50px 40px;
 }
+.grid{
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 15px;
+}
+.section4{
+  background-color: #ECF0F6;
+  mix-blend-mode: normal;
+}
 .designyourstore{
-  border: 1px solid #fff;
+  border:  1px solid #ffffff;
+  mix-blend-mode: normal;
+box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.15);
+border-radius: 15px;
+  background-color: #FFFFFF;
+  margin: 0px 20px 30px 20px ;
+  padding: 0px 15px 0px 15px;
+}
+.features{
+  padding: 50px 0px 20px 0px ;
 }
 .boldtext{
   font-weight: 900;
@@ -156,6 +174,9 @@ margin-bottom: 10%
   display: none;
 }
 .zero{
+  display: none;
+}
+.how{
   display: none;
 }
 }
@@ -287,8 +308,8 @@ display: none;
   font-size: 18px;
 }
 .handonphone{
-  width: 60%;
-  margin: 10% 0px 5% 20%;
+  width: 50%;
+  margin: 10% 0px 5% 25%;
 }
 .start-button{
   border-radius: 5px;
@@ -298,10 +319,11 @@ display: none;
   height: 50px;
   font-size: 30px;
   border-color:#027BFE ;
-  margin: 0px 0px 30px 40%;
+  margin: 0px 0px 70px 40%;
 }
 .flex{
   display: flex;
+  background-color:  rgba(212, 233, 255, 0.356);
 }
 .section3{
   background-color: #027BFE;
@@ -338,5 +360,27 @@ span.background{
 }
 .get{
   background-color: #028dfe;
+}
+.features{
+  display: none;
+}
+.how{
+  font-size: 72px;
+  padding: 0px 0px 0px 105px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+  height: 50%;
+  margin: 0px 0px 60px 0px;
+}
+.designyourstore{background: #FFFFFF;
+  mix-blend-mode: normal;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  margin: 30px 15% 0px 15%;
+  height: 50%;
+  padding: 30px 15px 20px 15px;
 }
 }
