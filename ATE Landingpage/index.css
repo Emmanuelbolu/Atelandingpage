@@ -179,6 +179,13 @@ border-radius: 15px;
 .how{
   display: none;
 }
+.what{
+  display: none;
+}
+.hear{
+  font-size: 30px;
+  text-align: center;
+}
 }
 @media screen and ( min-width: 1024px) {
   .hamburger{
@@ -382,5 +389,18 @@ span.background{
   margin: 30px 15% 0px 15%;
   height: 50%;
   padding: 30px 15px 20px 15px;
+}
+.hear{
+  display: none;
+}
+.what{
+  font-size: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 80px 0px 80px 0px ;
+}
+.section5{
+  background: linear-gradient(180deg, #027BFE 0%, #0032E3 100%);
+  mix-blend-mode: normal;
 }
 }
