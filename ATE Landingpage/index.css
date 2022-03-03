@@ -306,21 +306,23 @@ display: none;
 .section3{
   background-color: #027BFE;
   width: 600px;
-  height: 600px;
+  height: 800px;
 }
 .ladypressingphone{
   padding: 0px 0px 0px 0px;
   width: 100%;
-  height: 600px;
+  height: 800px;
 }
 .download{
-  font-size: 40px;
-  padding: 0px 0px 0px 0% ;
+  font-size: 60px;
+  padding: 40px 0px 0px 0% ;
   text-align: center;
   width: 150%;
+  height: 60%;
+  margin: 0px;
 }
 .googleplay{
-  padding: 0px 0px 30px 40%;
+  padding: 30px 0px 30px 40%;
   width: 70%;
 }
 .appstorelogo{
