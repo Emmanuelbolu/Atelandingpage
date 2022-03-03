@@ -346,16 +346,16 @@ display: none;
   font-size: 60px;
   padding: 40px 0px 0px 0% ;
   text-align: center;
-  width: 150%;
+  width: 100%;
   height: 60%;
   margin: 0px;
 }
 .googleplay{
-  padding: 30px 0px 30px 40%;
+  padding: 30px 0px 30px 20%;
   width: 70%;
 }
 .appstorelogo{
-  padding: 0px 0px 0px 45%;
+  padding: 0px 0px 0px 26%;
   width: 60%;
 }
 .background{
@@ -402,5 +402,15 @@ span.background{
 .section5{
   background: linear-gradient(180deg, #027BFE 0%, #0032E3 100%);
   mix-blend-mode: normal;
+}
+.web{
+width: 25%;
+color: #FFFFFF;
+padding: 0px 0px 0px 0%;
+
+}
+.imm{
+  padding: 0px 0px 0px 0%;
+
 }
 }
