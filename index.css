@@ -10,6 +10,10 @@ body {
   padding-left: 0%;
   margin-left: 10%;
 }
+.header{
+  display: flex;
+ justify-content: space-between; 
+}
 .div {
   position: fixed;
 }
@@ -155,6 +159,7 @@ border-radius: 15px;
 }
 .hamburger{
   padding: 0px 0px 0px 0px;
+  margin: 0px 20px 0px 0px ;
 }
 .friends{
   display: none;
@@ -230,7 +235,7 @@ section.sec{
     color: #027bfe;
   }
   .sittinglaptop{
-    width: 40%;
+    width: 45%;
     height: 50%;
   }
   h1{
