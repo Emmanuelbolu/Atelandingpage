@@ -1,3 +1,8 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
 .header {
   display: -ms-grid;
   display: grid;
@@ -91,12 +96,23 @@ span.freetext {
 
 .list {
   list-style-type: none;
-  padding: 0px;
+  padding: 0px 20px 0px 20px;
 }
 
 .sec {
   background-color: #fff;
   width: 100%;
+}
+
+.ate-text {
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 38px;
+  letter-spacing: 0.504px;
 }
 
 @media screen and (min-width: 800px) {
