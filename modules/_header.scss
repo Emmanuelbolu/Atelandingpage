@@ -1,0 +1,161 @@
+@import "variable";
+
+
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 65%;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5%;
+    background-color: #fff;
+    
+}
+img.atelogo{
+    padding-left: 10px;
+}
+img.hamburger{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.friends{
+    display: none;
+}
+img.sittinglaptop{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.e-commerce{
+    text-align: center;
+    padding: 10px 7px 10px 7px;
+    margin: 0%;
+    font-size: 36px;
+}
+span.freetext{
+    color: #027BFE;
+}
+.p-text{
+    text-align: center;
+    font-size: 12px;
+    line-height: $lineheight;
+}
+.e-commerce{
+    padding: 10px 7px 10px 7px;
+    margin: 0%;
+}
+.create-store{
+width: 270px;
+height: 65px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+background-color: #027BFE;
+border-color: #027BFE;
+border-radius: $border;
+color: #fff;
+font-size: 20px;
+margin-bottom: 60px;
+}
+.didyou{
+text-align: center;
+padding: 60px 50px 0px 50px ;
+margin-left: auto;
+display: block;
+margin-right: auto;
+font-size: 30px;
+}
+.section-2{
+    background-color: #D4E9FF;
+}
+.womanwithlaptop{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.list{
+    list-style-type: none;
+    padding: 0px;
+}
+.sec{
+    background-color: #fff;
+    width: 100%;
+}
+
+
+// Media Query
+@media screen and (min-width: 800px) {
+    .friends{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+    img.hamburger{
+        display: none;
+    }
+    img.atelogo{
+        margin: 0px 0px 15px 40px;
+        padding: 20px 0px 0px 20px;
+    }
+    button.create-account{
+        width: 175px;
+        margin: 0px 20px 12px 0px;
+        padding: 1.5vh 2vw;
+        white-space: nowrap;
+        color: white;
+        background-color: black;
+        border-radius: $border;
+    }
+    .header{
+        border-bottom: 0.2px solid #efefefee;
+        grid-gap: 25%;
+    }
+    img.sittinglaptop{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        padding-bottom: 5%;
+    }
+    .together{
+        margin: 6% 0px 0px 3.5%;
+
+    }
+    .e-commerce{
+        text-align: left;
+        font-size: 64px;
+    }
+    .p-text{
+        text-align: left;
+        margin: 10px;
+        font-size: 20px;
+        line-height: $lineheight;
+    }
+    .create-store{
+        padding: 0px;
+        margin: 50px 0px 0px 0px;
+        font-size: 40px;
+        width: 60%;
+        
+    }
+    .sec{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .didyou{
+  font-size: 60px;
+  padding-left: 24.5%;
+  padding-right: 24.5%;
+
+    }
+    .section-2{
+        background-color: #E5E5E5;
+    }
+    .womanwithlaptop{
+        width: 40%;
+    }
+    
+}
