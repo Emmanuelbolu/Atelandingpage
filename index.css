@@ -18,12 +18,11 @@ body {
 }
 
 img.atelogo {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 img.hamburger {
   padding-top: 10px;
-  padding-left: 10px;
 }
 
 .friends {
@@ -84,13 +83,14 @@ span.freetext {
 
 .section-2 {
   background-color: #D4E9FF;
+  height: 1170px;
 }
 
 .womanwithlaptop {
   width: 90%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
+  margin-right: 20px;
   padding-top: 30px;
 }
 
@@ -109,10 +109,40 @@ span.freetext {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 0px;
   line-height: 38px;
   letter-spacing: 0.504px;
+}
+
+.list-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.bold-text {
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.signup {
+  display: none;
+}
+
+.sectionbutton {
+  width: 290.38px;
+  height: 65px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #262B33;
+  border-color: #262B33;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 800px) {
@@ -190,6 +220,37 @@ span.freetext {
   }
   .womanwithlaptop {
     width: 40%;
+    margin-left: 90px;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  .signup {
+    display: block;
+    width: 290.38px;
+    height: 65px;
+    display: block;
+    background-color: #262B33;
+    border-color: #262B33;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 25px;
+  }
+  .sectionbutton {
+    display: none;
+  }
+  .womanandlaptop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .ate {
+    margin-left: 10%;
+  }
+  .ate-text {
+    font-size: 36px;
+    padding-left: 20px;
+    font-weight: 500;
   }
 }
 /*# sourceMappingURL=index.css.map */
