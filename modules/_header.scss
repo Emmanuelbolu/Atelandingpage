@@ -23,8 +23,8 @@ span.freetext{
 }
 .header{
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 0%;
+    grid-template-columns: auto auto ;
+    grid-gap: 65%;
     width: 100%;
     align-items: center;
     margin-bottom: 5%;
@@ -40,6 +40,7 @@ img.hamburger{
 }
 .friends{
     font-size: 20px;
+    display: none;
 }
 img.sittinglaptop{
     width: 80%;
