@@ -4,10 +4,27 @@ body{
     padding: 0px;
     margin: 0px;
 }
+.create-account{
+    width: 175px;
+    margin: 0px 20px 12px 0px;
+    padding: 1.5vh 2vw;
+    white-space: nowrap;
+    color: white;
+    background-color: black;
+    border-radius: $border;
+}
+span.freetext{
+    color: #027BFE;
+}
+.p-text{
+    text-align: center;
+    font-size: 12px;
+    line-height: $lineheight;
+}
 .header{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 65%;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0%;
     width: 100%;
     align-items: center;
     margin-bottom: 5%;
@@ -22,7 +39,7 @@ img.hamburger{
 
 }
 .friends{
-    display: none;
+    font-size: 20px;
 }
 img.sittinglaptop{
     width: 80%;
