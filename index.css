@@ -83,7 +83,7 @@ span.freetext {
 
 .section-2 {
   background-color: #D4E9FF;
-  height: 1170px;
+  height: 1030px;
 }
 
 .womanwithlaptop {
@@ -143,6 +143,30 @@ span.freetext {
   border-radius: 5px;
   color: #fff;
   font-size: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .section-2 {
+    height: 1100px;
+  }
+  .section-2 .sectionbutton {
+    margin-top: 35px;
+  }
+  .section-2 .ate-text {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 590px) {
+  .section-2 {
+    height: 1250px;
+  }
+  .header {
+    grid-gap: 70%;
+  }
+  .atelogo {
+    margin-left: 20px;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -217,6 +241,7 @@ span.freetext {
   }
   .section-2 {
     background-color: #E5E5E5;
+    height: 900px;
   }
   .womanwithlaptop {
     width: 40%;
